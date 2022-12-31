@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/loginpage/register.css">
+</head>
+
+<body class="bod">
+  
+        <div class="rightbox">
+            <h3 style="color: black;font-weight: bolder;padding: 10px;border-bottom: 1px solid rgb(250, 248, 248);font-style: italic;">REGISTER ANIME USERS</h3>
+          <img src="" alt="" class="profile" style="height: 50px;width: 50px;border-radius: 50%;background-color: wheat;" id="Myimg">
+            <p class="textd">NAME</p>
+            <div class="boxtab">
+                <input type="text" id="name" class="user" aria-required="true">
+                <div class="hint" id="showhint1">
+                    <span class="material-symbols-outlined">
+                        error
+                    </span>
+                    <p class="show">min 5</p>
+                </div>
+            </div>
+            <p class="textd">PHONE NUMBER</p>
+            <div class="boxtab">
+                <input type="number" id="phone" class="user" aria-required="true">
+                <div class="hint" id="showhint2">
+                    <span class="material-symbols-outlined">
+                        error
+                    </span>
+                    <p class="show">min 10</p>
+                </div>
+            </div>
+            <p class="textd">EMAIL-ID</p>
+            <div class="boxtab">
+                <input type="email" id="email" class="user" aria-required="true">
+                <div class="hint" id="showhint3">
+                    <span class="material-symbols-outlined">
+                        error
+                    </span>
+                    <p class="show">@.com</p>
+                </div>
+            </div>
+            <p class="textd">PASSWORD</p>
+            <div class="boxtab">
+                <input type="password" id="password" class="user" aria-required="true">
+                <div class="hint" id="showhint4">
+                    <span class="material-symbols-outlined erroricon">
+                        error
+                    </span>
+                    <p class="show">@$</p>
+                </div>
+                <br>
+            </div>
+            <p class="textd">UPLOAD IMAGE</p>
+            <div class="boxtab">
+                <input type="file" name="file" id="upload" accept="image/png image/jpg mp4/mkv/mp3" />
+                <label for="" id="getp"></label>
+             </div>
+            <div class="btnbox" id="password" aria-required="true">
+                <button class="btn" id="login">LOGIN </button>
+                <button class="btn" id="register">REGISTER</button>
+            </div>
+        </div>
+
+  
+</body>
+<script type="module" src="register.js"></script>
+
+</html>

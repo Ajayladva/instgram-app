@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+  <p  style="display: none;" id="currentidchat"></p>
+  <div class="listbox">
+    <div class="listf" id="filter-list">
+
+    </div>
+    <div class="chatbox" id="chatbox-show">
+      <div class="header"><img src="" alt="" class="chooseicon" id="chooseicon">
+        <h3 id="namewidth" class="namewidth">name</h3><span id="downbtn-list" class="material-symbols-outlined  icon">more_vert</span>
+        <div class="downlist" id="show-not">
+          <a class="downlistb" href="">Delete Data</a>
+          <a class="downlistb" href="">Delete users</a>
+        </div>
+      </div>
+      <div class="input-output">
+       <div id="getusers"></div>
+      </div>
+      <div class="send-data">
+        <input type="text" id="input-out-chat" class="input-text"><button type="submit" id="send-out-put"  class="material-symbols-outlined">send</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="/home/chat.js" type="module"></script>
+
+</html>

@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1))
+}
+/*box design css*/
+.listbox{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.listf{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid black;
+}
+#peruserbox{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background-color: rgba(108, 95, 95, 0.278);
+    border: 1px solid black;
+    margin: 9px;
+    border-radius: 8px;
+}
+#imgicons{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin: 8px;
+}
+#username{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.downlist{
+    float: left;
+    position: fixed;
+    top: 43px;
+    right: 0px;
+    width: 130px;
+    text-align: center;
+    height: auto;
+    display: none;
+}
+.downlistb{
+    float: left;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    margin: 8px;
+}
+.chatbox{
+    height: auto;
+    
+}
+/* chatbox output css*/
+.box-bar {
+    height: 100%;
+    width: 50%;
+    padding: 8px;
+    place-items: top;
+    text-align: right;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.208);
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.478);
+}
+.chooseicon{
+    height: 30px;
+    width: 30px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 50%;
+}
+.namewidth{
+    width: 100%;
+}
+.icon{
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.input-output{
+    height:540px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.send-data{
+   padding: 0px;
+   display: flex;
+   align-items: center;
+}
+.input-text{
+    width: 100%;
+    padding: 5px 10px 5px;
+}
+.box-output {
+    background-color: rgb(254, 254, 254);
+    width: 50%;
+    border-radius: 9px;
+    overflow: hidden;
+    margin: 10px;
+    background: rgba(24, 24, 16, .2);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    float: left;
+}
+
+.box-output-right {
+    width: 50%;
+    float: right;
+    text-align: center;
+    border-radius: 9px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 8px;
+    background: rgba(24, 24, 16, .2);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.img-counter {
+    vertical-align: text-top;
+    padding: 8px 0px 8px 10px;
+    background-color: rgba(255, 192, 203, 0);
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.logo-users {
+    height: 30px;
+    width: 30px;
+    vertical-align: text-top;
+    border-radius: 50%;
+}
+
+.text-box-input-show {
+    margin: 0px 0px 0px 10px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 95%;
+    margin: 0px;
+    height: auto;
+    padding: 10px 0px 8px 0px;
+    color: white;
+
+}
+
+.time-left {
+    margin: 0px;
+    text-align: right;
+    width: 80%;
+}
+
+.time-right {
+    margin: 0px;
+    text-align: left;
+    width: 80%;
+}
+
+.user-output {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}

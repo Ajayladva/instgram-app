@@ -1,0 +1,434 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.left {
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding-bottom: 20px;
+    background-color: rgba(249, 247, 244, 0.278);
+    box-shadow: 1px 1px  5px  white;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    border-right: 1px solid black;
+}
+
+.right-menubar {
+    width: 84%;
+    float: right;
+    background-color: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 72% 23%;
+}
+
+.box {
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin: 15px 0px;
+    color: rgb(10, 10, 10);
+}
+
+
+.avtericons{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.box:hover {
+    background-color: rgba(187, 141, 141, 0.387);
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+    font-size: 12px;
+    margin: 15px 0px;
+
+    font-variation-settings:
+        'FILL' 10,
+        'wght' 500,
+        'GRAD' 10,
+        'opsz' 49
+}
+
+.logweb {
+    height: 30px;
+    width: 30px;
+}
+
+.icon {
+    font-size: 25px;
+}
+#postgetallusers{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+#userboxs {
+    margin: 10px;
+    padding-right: 20px;
+    top:1px;
+    width: 15%;
+    height: 100%;
+    float: right;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    color: white;
+}
+
+#peruserbox {
+    height: auto;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(243, 243, 244, 0.315);
+    padding: 8px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px  solid rgba(65, 63, 63, 0.546);
+}
+#boxstyle{
+    height: 100%;
+    width: 100%;
+}
+#imgicons {
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#username {
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#buttonusers {
+    width:80%;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0px solid white;
+    color: rgb(7, 7, 7);
+    padding: 8px 0px 8px 0px;
+}
+
+.float-box-upload {
+    width: 30%;
+    height: auto;
+    top: 10px;
+    right: 33%;
+    left: 33%;
+    position: absolute;
+    background-color:white;
+    text-align: center;
+    border-radius: 9px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.checkbtn{
+    background-color: white;
+    color: rgb(11, 4, 55);
+    border: 1px solid wheat;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.show-after{
+    display: none;
+}
+
+#nameid {
+    font-size: 13px;
+    font-weight: bold;
+    width: 99%;
+    background-color: white;
+    border: 1px solid  rgb(230, 226, 226);
+    border-bottom: 1px solid rgb(8, 7, 7);
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nameid:hover{
+    border: 1px solid black; 
+}
+
+
+#decid {
+    font-size: 13px;
+    font-weight: bold;
+    width: 98%;
+    background-color: transparent;
+    border: none;
+    border-top:1px solid rgb(6, 6, 6) ;
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+
+.boximg-upload {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#selectimg {
+    height: 198px;
+    width: 100%;
+    display: none;
+
+}
+
+#getp {
+    font-size: 10px;
+    margin: 0px;
+}
+#uploads-post{
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.post-show{
+    display: block;
+}
+.video-show{
+    display: none;
+}
+#postlistusers{
+    height: 350px;
+    width: 95%;
+    margin: 10px; 
+    background-color: rgba(245, 245, 245, 0.476);
+    border: 1px solid black;
+    border-radius: 9px;
+}
+#boxsize{
+    width: 100%;
+    height: auto;
+}
+#boxsizename{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+}
+#imgicons{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+#imgiconsd{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    
+}
+#iconuserspost{
+    height: 250px;
+    width: 100%;
+}
+#usernamesid{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 10px;
+}
+#deleteid{
+    background-color: white;
+    border: 1px solid white ;
+    margin: 8px;
+}
+#followid{
+    background-color: white;
+    border: 1px solid white ;
+    margin: 8px;
+}
+.navtop{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .logweb{
+        display: none;
+    }
+    .boxs{
+        display: none;
+    }
+    .left {
+        left: 0px;
+        right: 0px;
+        bottom: 5px;
+        width: 100%;
+        position: fixed;
+        height:55px;
+        background-color: rgb(238, 238, 238);
+        top: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .box{
+        float: left;
+        font-size: 0px;
+        padding: 0px 10px  0px 10px;
+    }
+    .icon{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px 5px 0px 5px;
+        color: rgb(17, 15, 15);
+    }
+    .avtericons{
+        height: 0px;
+        width: 0px;
+    }
+    #menubtn{
+        display: none;
+    }
+    .showor{
+        display: none;
+    }
+    .right-menubar{
+        width: 99%;
+        margin: 5px;
+        overflow-x: scroll;
+        grid-template-columns: none;
+        margin-top: 80px;
+    }
+    
+    .usericonsbox{
+        width: 25%;
+
+    }
+    .usericon{
+        height: 80px;
+        width:100%;
+        border-radius: 50%;
+    }
+    .info{
+        display: grid;
+        grid-template-columns: 60% 40%; 
+        grid-gap: 10px;
+        text-align: center;
+        margin: 5px;
+        padding: 8px;
+    }
+    .information{
+        width: 69%;
+    }
+    #username{
+        font-size: 14px;
+        margin: 5px;
+    }
+    #editinfromation{
+       margin: 0px;
+    }
+    #followsend{
+        margin: 0px;
+    }
+    #postnumber{
+        font-size: 13px;
+        padding: 8px 10px;
+        margin-left: 5px;
+    }
+    #video-post{
+        font-size: 13px;
+        padding: 8px 10px;
+        margin-left: 5px;
+    }
+    #follownumber{
+        font-size: 13px;
+        padding: 8px 10px;
+        margin-left: 5px;
+    }
+    #peruserbox{
+        width: 100%;
+    }
+    #userboxs{
+        display: none;
+        overflow-y: scroll;
+        background-color: white;
+        width: 90%;
+        top:80px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    #postgetallusers{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 98%;
+    }
+    #postlistusers{
+        height: 360px;
+    }
+    .navtop{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        position: fixed;
+        display: block;
+        display: flex;
+        align-items: center;
+        background-color: rgb(155, 143, 143);
+        width: 99%;
+        padding: 8px;
+    }
+    .logwebs{
+        height: 30px;
+        width: 30px;
+    }
+    .sizephone{
+        width: 100%;
+    }
+    .iconphone{
+        font-size: 25px;
+        color: black;
+        margin-right: 18px;
+    }
+    #imgiconsd{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+
+    }
+    #imgicons{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+}
